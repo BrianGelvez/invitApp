@@ -25,16 +25,16 @@ export default function Section1() {
           />
         </div>
         <div className="w-full px-4 flex flex-col justify-center items-center gap-2">
-          <p className={`text-[16px] font-[600] text-blue-lightBlueishGray`}>
+          <p className={`text-[16px] font-[600] text-blue-lightBlueishGray/70`}>
             INVITAPP - INVITACIONES WEB
           </p>
           <p
             className={`${anton.className} font-[100] text-[35px] leading-[38px] text-center`}
           >
             UN BUEN{" "}
-            <span className="text-blue-lightBlueishGray italic">EVENTO</span>{" "}
+            <span className="text-blue-lightBlueishGray/70 italic">EVENTO</span>{" "}
             <span className="">COMIENZA</span> CON UNA BUENA{" "}
-            <span className="text-blue-lightBlueishGray italic">
+            <span className="text-blue-lightBlueishGray/70 italic">
               INVITACION
             </span>
           </p>

@@ -7,6 +7,7 @@ import { Autoplay } from "swiper/modules";
 // Import Swiper styles
 import "swiper/css";
 import { FaHeart } from "react-icons/fa";
+import { GiLargeDress } from "react-icons/gi";
 
 export default function Section2() {
   // Array con 10 elementos (puedes usar un número o estructura simple)
@@ -101,9 +102,9 @@ export default function Section2() {
               className="bg-blue-blueSoftWater p-3 flex justify-center items-center 
                          gap-2 text-white font-[500] rounded-lg"
             >
-              VER DISEÑOS CASAMIENTO{" "}
+              VER DISEÑOS XV{" "}
               <span>
-                <FaHeart />
+              <GiLargeDress />
               </span>
             </a>
             <a

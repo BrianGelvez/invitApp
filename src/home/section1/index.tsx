@@ -1,4 +1,4 @@
-import { anton } from "@/app/layout";
+import { anton } from "@/app/fonts";
 import Image from "next/image";
 
 export default function Section1() {

@@ -1,16 +1,10 @@
-import { Poppins, Dancing_Script, Anton } from "next/font/google";
+import { Poppins, Anton } from "next/font/google";
 import "./globals.css";
 
 // Configura Poppins
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-});
-
-// Configura Dancing Script
-const dancingScript = Dancing_Script({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
 });
 
 const anton = Anton({
@@ -33,4 +27,4 @@ export default function RootLayout({
 }
 
 // Exporta también la fuente para uso en componentes
-export { dancingScript, anton };
+export { anton };

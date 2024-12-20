@@ -63,7 +63,7 @@ export default function DialogForm() {
                 <input
                   type="text"
                   id="name"
-                  className="border-b-[2px] border-blue-blueSoftWater bg-transparent focus:ring-0 focus:outline-none"
+                  className="border-b-[2px] text-blue-blueSoftWater border-blue-blueSoftWater bg-transparent focus:ring-0 focus:outline-none"
                   placeholder="Ingresa tu nombre"
                   required
                 />
@@ -78,7 +78,7 @@ export default function DialogForm() {
                 <input
                   type="email"
                   id="email"
-                  className="border-b-[2px] border-blue-blueSoftWater bg-transparent focus:ring-0 focus:outline-none"
+                  className="border-b-[2px] text-blue-blueSoftWater border-blue-blueSoftWater bg-transparent focus:ring-0 focus:outline-none"
                   placeholder="correo@ejemplo.com"
                   required
                 />
@@ -93,7 +93,7 @@ export default function DialogForm() {
                 <input
                   type="tel"
                   id="phone"
-                  className="border-b-[2px] border-blue-blueSoftWater bg-transparent focus:ring-0 focus:outline-none"
+                  className="border-b-[2px] text-blue-blueSoftWater border-blue-blueSoftWater bg-transparent focus:ring-0 focus:outline-none"
                   placeholder="Opcional"
                 />
               </div>
@@ -107,7 +107,7 @@ export default function DialogForm() {
                 </label>
                 <select
                   id="eventType"
-                  className="border-b-[2px] border-blue-blueSoftWater bg-transparent focus:ring-0 focus:outline-none"
+                  className="border-b-[2px] text-blue-blueSoftWater border-blue-blueSoftWater bg-transparent focus:ring-0 focus:outline-none"
                   required
                 >
                   <option value="">Selecciona una opción</option>
@@ -128,7 +128,7 @@ export default function DialogForm() {
                 <input
                   type="date"
                   id="eventDate"
-                  className="border-b-[2px] border-blue-blueSoftWater bg-transparent focus:ring-0 focus:outline-none"
+                  className="border-b-[2px] text-blue-blueSoftWater border-blue-blueSoftWater bg-transparent focus:ring-0 focus:outline-none"
                   required
                 />
               </div>
@@ -142,7 +142,7 @@ export default function DialogForm() {
                 <input
                   type="text"
                   id="eventLocation"
-                  className="border-b-[2px] border-blue-blueSoftWater bg-transparent focus:ring-0 focus:outline-none"
+                  className="border-b-[2px] text-blue-blueSoftWater border-blue-blueSoftWater bg-transparent focus:ring-0 focus:outline-none"
                   placeholder="Opcional"
                 />
               </div>
@@ -157,7 +157,7 @@ export default function DialogForm() {
                 <input
                   type="text"
                   id="theme"
-                  className="border-b-[2px] border-blue-blueSoftWater bg-transparent focus:ring-0 focus:outline-none"
+                  className="border-b-[2px] text-blue-blueSoftWater border-blue-blueSoftWater bg-transparent focus:ring-0 focus:outline-none"
                   placeholder="Ej. Elegante, Minimalista"
                 />
               </div>
@@ -171,7 +171,7 @@ export default function DialogForm() {
                 <input
                   type="text"
                   id="colors"
-                  className="border-b-[2px] border-blue-blueSoftWater bg-transparent focus:ring-0 focus:outline-none"
+                  className="border-b-[2px] text-blue-blueSoftWater border-blue-blueSoftWater bg-transparent focus:ring-0 focus:outline-none"
                   placeholder="Ej. Azul, Dorado"
                 />
               </div>
@@ -185,7 +185,7 @@ export default function DialogForm() {
                 <input
                   type="text"
                   id="music"
-                  className="border-b-[2px] border-blue-blueSoftWater bg-transparent focus:ring-0 focus:outline-none"
+                  className="border-b-[2px] text-blue-blueSoftWater border-blue-blueSoftWater bg-transparent focus:ring-0 focus:outline-none"
                   placeholder="Opcional"
                 />
               </div>
@@ -199,7 +199,7 @@ export default function DialogForm() {
                 </label>
                 <textarea
                   id="reason"
-                  className="border-b-[2px] border-blue-blueSoftWater bg-transparent focus:ring-0 focus:outline-none"
+                  className="border-b-[2px] text-blue-blueSoftWater border-blue-blueSoftWater bg-transparent focus:ring-0 focus:outline-none"
                   placeholder="Comparte tu motivación brevemente"
                   rows={3}
                   required

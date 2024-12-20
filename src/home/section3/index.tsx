@@ -4,7 +4,7 @@ import DialogForm from "./components/dialogForm";
 
 export default function Section3() {
   return (
-    <div className="w-full flex flex-col bg-white pb-6">
+    <div className="w-full flex flex-col bg-white">
       <div
         className="w-full flex flex-col gap-10 justify-center items-center bg-blue-lightPastelBlue 
                       p-[8vw] border-blue-blueSoftWater border-y-[2px]"
@@ -50,9 +50,12 @@ export default function Section3() {
               </p>
             </div>
           </div>
-          <DialogForm/>
+          <DialogForm />
         </div>
       </div>
+          <div className="py-4 flex justify-center items-center">
+              <Image src="/bannerHeart.webp" width={1000} height={1000} alt="Banner corazon" className="w-[90vw]"/>
+            </div>
     </div>
   );
 }

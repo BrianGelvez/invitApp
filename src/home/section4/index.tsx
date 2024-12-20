@@ -4,16 +4,16 @@ import Image from "next/image";
 export default function Section4() {
   return (
     <div
-      className="w-full h-auto bg-cover bg-center relative"
+      className="w-full bg-cover bg-center relative border-y-[2px] border-blue-blueSoftWater"
       style={{
-        backgroundImage: `url('/fondoAbsolute.webp')`,
+        backgroundImage: `url('/fondoAbsolute2.webp')`,
       }}
     >
       {/* Capa negra semitransparente */}
-      <div className="absolute inset-0 bg-blue-colorText/50 backdrop-sepia backdrop-blur-sm"></div>
+      <div className="absolute inset-0 bg-blue-colorText/70  backdrop-blur-sm"></div>
 
       {/* Contenido sobre la imagen */}
-      <div className="relative z-10 flex flex-col  text-white h-full p-[5vw]">
+      <div className="relative z-10 flex flex-col  text-white p-[5vw]">
         <p className={`${anton.className} text-[35px] py-4 text-center`}>
           ¿QUÉ INCLUYEN NUESTRAS{" "}
           <span className="italic text-blue-lightPastelBlue/70">
@@ -21,7 +21,7 @@ export default function Section4() {
           </span>
         </p>
         <div className="w-full flex flex-col justify-center items-center gap-6">
-        <div className="flex flex-col justify-center items-center text-center">
+          <div className="flex flex-col justify-center items-center text-center">
             <Image
               src="/bienvenida.gif"
               width={1000}
@@ -36,7 +36,7 @@ export default function Section4() {
               Una pantalla de bienvenida previo al ingreso de la invitación.
             </p>
           </div>
-        <div className="flex flex-col justify-center items-center text-center">
+          <div className="flex flex-col justify-center items-center text-center">
             <Image
               src="/tiempo.gif"
               width={1000}

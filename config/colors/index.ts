@@ -3,5 +3,6 @@ export const colorsDefault = {
     lightBlueishGray: "#BCCFCF",
     lightPastelBlue: "#DAFFFB",
     blueSoftWater: "#8DC2BD",
+    colorText: "#3B4544"
   },
 };

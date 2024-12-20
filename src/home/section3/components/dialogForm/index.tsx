@@ -19,6 +19,7 @@ export default function DialogForm() {
       <Dialog.Portal>
         <Dialog.Overlay className="inset-0 z-[60] fixed bg-black/70 overflow-y-auto flex justify-center items-center">
           <Dialog.Content
+            aria-describedby={undefined}
             className="w-full h-[500px] bg-blue-colorText/50 backdrop-blur-sm outline outline-offset-1
                                    outline-blue-blueSoftWater text-black flex flex-col justify-start items-center
                                     rounded-2xl p-4 m-8 overflow-y-auto"
@@ -39,11 +40,13 @@ export default function DialogForm() {
               </Dialog.Close>
             </div>
             <div className="w-full flex justify-center items-center mt-2">
-              <p
-                className={`${dancingScript.className} text-[22px] font-extrabold text-blue-lightBlueishGray`}
-              >
-                ¡Sé uno de los ganadores!
-              </p>
+              <Dialog.Title>
+                <p
+                  className={`${dancingScript.className} text-[22px] font-extrabold text-blue-lightBlueishGray`}
+                >
+                  ¡Sé uno de los ganadores!
+                </p>
+              </Dialog.Title>
             </div>
             <form
               className="w-full mt-4 flex flex-col gap-4"

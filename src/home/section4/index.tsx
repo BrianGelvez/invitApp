@@ -24,6 +24,7 @@ export default function Section4() {
           <div className="flex flex-col justify-center items-center text-center">
             <Image
               src="/bienvenida.gif"
+              unoptimized
               width={1000}
               height={1000}
               alt="Gif correo"
@@ -39,6 +40,7 @@ export default function Section4() {
           <div className="flex flex-col justify-center items-center text-center">
             <Image
               src="/tiempo.gif"
+              unoptimized
               width={1000}
               height={1000}
               alt="Gif correo"
@@ -55,6 +57,7 @@ export default function Section4() {
           <div className="flex flex-col justify-center items-center text-center">
             <Image
               src="/correo.gif"
+              unoptimized
               width={1000}
               height={1000}
               alt="Gif correo"
@@ -70,6 +73,7 @@ export default function Section4() {
           <div className="flex flex-col justify-center items-center text-center">
             <Image
               src="/ubicacion.gif"
+              unoptimized
               width={1000}
               height={1000}
               alt="Gif correo"
@@ -85,6 +89,7 @@ export default function Section4() {
           <div className="flex flex-col justify-center items-center text-center">
             <Image
               src="/cena.gif"
+              unoptimized
               width={1000}
               height={1000}
               alt="Gif correo"
@@ -100,6 +105,7 @@ export default function Section4() {
           <div className="flex flex-col justify-center items-center text-center">
             <Image
               src="/trivia.gif"
+              unoptimized
               width={1000}
               height={1000}
               alt="Gif correo"
@@ -116,6 +122,7 @@ export default function Section4() {
           <div className="flex flex-col justify-center items-center text-center">
             <Image
               src="/mezclador.gif"
+              unoptimized
               width={1000}
               height={1000}
               alt="Gif correo"
@@ -131,6 +138,7 @@ export default function Section4() {
           <div className="flex flex-col justify-center items-center text-center">
             <Image
               src="/diamante.gif"
+              unoptimized
               width={1000}
               height={1000}
               alt="Gif correo"
@@ -146,6 +154,7 @@ export default function Section4() {
           <div className="flex flex-col justify-center items-center text-center">
             <Image
               src="/camara.gif"
+              unoptimized
               width={1000}
               height={1000}
               alt="Gif correo"
@@ -161,6 +170,7 @@ export default function Section4() {
           <div className="flex flex-col justify-center items-center text-center">
             <Image
               src="/valorTarjeta.gif"
+              unoptimized
               width={1000}
               height={1000}
               alt="Gif correo"
@@ -177,6 +187,7 @@ export default function Section4() {
           <div className="flex flex-col justify-center items-center text-center">
             <Image
               src="/regalo.gif"
+              unoptimized
               width={1000}
               height={1000}
               alt="Gif correo"
@@ -192,6 +203,7 @@ export default function Section4() {
           <div className="flex flex-col justify-center items-center text-center">
             <Image
               src="/albunFotos.gif"
+              unoptimized
               width={1000}
               height={1000}
               alt="Gif correo"
@@ -207,6 +219,7 @@ export default function Section4() {
           <div className="flex flex-col justify-center items-center text-center">
             <Image
               src="/musicaFondo.gif"
+              unoptimized
               width={1000}
               height={1000}
               alt="Gif correo"
@@ -222,6 +235,7 @@ export default function Section4() {
           <div className="flex flex-col justify-center items-center text-center">
             <Image
               src="/historia.gif"
+              unoptimized
               width={1000}
               height={1000}
               alt="Gif correo"
@@ -237,6 +251,7 @@ export default function Section4() {
           <div className="flex flex-col justify-center items-center text-center">
             <Image
               src="/padrinos.gif"
+              unoptimized
               width={1000}
               height={1000}
               alt="Gif correo"
@@ -252,6 +267,7 @@ export default function Section4() {
           <div className="flex flex-col justify-center items-center text-center">
             <Image
               src="/hotel.gif"
+              unoptimized
               width={1000}
               height={1000}
               alt="Gif correo"
@@ -267,6 +283,7 @@ export default function Section4() {
           <div className="flex flex-col justify-center items-center text-center">
             <Image
               src="/auto.gif"
+              unoptimized
               width={1000}
               height={1000}
               alt="Gif correo"
@@ -282,6 +299,7 @@ export default function Section4() {
           <div className="flex flex-col justify-center items-center text-center">
             <Image
               src="/codigoQr.gif"
+              unoptimized
               width={1000}
               height={1000}
               alt="Gif correo"

@@ -18,6 +18,7 @@ export default function Section3() {
           <div className="w-full flex flex-col justify-center items-center gap-1 mt-4">
             <Image
               src="/gift.webp"
+              unoptimized
               width={1000}
               height={1000}
               alt="Regalo Gratis invitacion"
